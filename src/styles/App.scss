@@ -1,0 +1,14 @@
+.app {
+  /* opacity: 0.4; */
+  text-align: center;
+
+}
+
+.layer {
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}

@@ -1,0 +1,19 @@
+.presonal-info-container {
+    text-align: right;
+
+    * {
+
+        font-family: "Roboto";
+    }
+
+    h1 {
+        font-weight: 300;
+        font-size: 32px;
+        user-select: none;
+    }
+
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+}
