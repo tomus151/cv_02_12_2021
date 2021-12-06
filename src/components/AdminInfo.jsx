@@ -1,3 +1,4 @@
+import React from 'react';
 import adminImage from "../images/admin.jpg";
 import '../styles/AdminInfo.scss';
 import AdminPersonalInfo from './AdminPersonalInfo'
@@ -9,4 +10,4 @@ const AdminInfo = () => {
         </header>
     )
 }
-export default AdminInfo;
+export default React.memo(AdminInfo);

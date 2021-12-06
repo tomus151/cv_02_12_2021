@@ -1,5 +1,6 @@
 import '../styles/AdminPersonalInfo.scss';
 function AdminPersonalInfo() {
+    console.log('render')
     return (
         <div className="presonal-info-container">
             <h1>Tomasz Markowski</h1>
