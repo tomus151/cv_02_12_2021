@@ -1,4 +1,4 @@
-import '../styles/AdminPersonalInfo.scss';
+import '../styles/AdminPersonalInfo.css';
 function AdminPersonalInfo() {
     console.log('render')
     return (

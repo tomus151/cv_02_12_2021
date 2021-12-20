@@ -1,7 +1,8 @@
 import React, { PureComponent } from 'react';
 import ContentSection from './ContentSection';
 import sectionsData from '../data/sectionsData.json';
-import '../styles/ContentList.scss';
+import '../styles/ContentList.css';
+
 class ContentList extends PureComponent {
     state = {
         sectionsData: []

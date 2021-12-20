@@ -1,0 +1,8 @@
+.list-item-content-container {
+    height: 0px;
+    transition: 0.3s;
+}
+
+.list-item-content-container.active {
+    height: auto;
+}

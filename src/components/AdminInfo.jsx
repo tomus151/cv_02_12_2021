@@ -1,6 +1,6 @@
 import React from 'react';
 import adminImage from "../images/admin.jpg";
-import '../styles/AdminInfo.scss';
+import '../styles/AdminInfo.css';
 import AdminPersonalInfo from './AdminPersonalInfo'
 const AdminInfo = () => {
     return (
