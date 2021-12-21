@@ -1,8 +1,10 @@
 .list-item-content-container {
-    height: 0px;
-    transition: 0.3s;
+    max-height: 0px;
+    transition: .3s linear;
+    overflow: hidden;
+    background: #ccc;
 }
 
 .list-item-content-container.active {
-    height: auto;
+    max-height: 1000px;
 }

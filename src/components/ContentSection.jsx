@@ -18,7 +18,7 @@ const ContentSection = ({ content, index, click }) => {
                     </div>
                     <h2 className="section-title-text">{title}</h2>
                 </div>
-                <ContentContent isActive={active} />
+                <ContentContent isActive={active} aa="aaa" />
             </section>
 
         </li>
