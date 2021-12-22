@@ -1,7 +1,7 @@
 .list-item {
     min-height: 160px;
     position: relative;
-    margin-left: 120px;
+    padding-left: 120px;
 }
 
 .list-item:after {
@@ -20,7 +20,7 @@
     border-top-color: black;
     position: absolute;
     top: 0px;
-    left: 0px;
+    left: 120px;
 
 }
 
@@ -55,11 +55,31 @@
     top: 0px;
     border-radius: 50%;
     left: 0px;
-    background: blue;
+    background: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
     /* margin-top: 47px; */
+}
+
+.list-item-0 {
+    background: #9da939;
+}
+
+.list-item-1 {
+    background: #aec1bf;
+}
+
+.list-item-2 {
+    background: #eebb3a;
+}
+
+.list-item-3 {
+    background: #b83843;
+}
+
+.list-item-4 {
+    background: #3a3c43;
 }
 
 .list-item section .circle img {

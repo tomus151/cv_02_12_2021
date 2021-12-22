@@ -15,8 +15,10 @@ class WorkExpirience extends PureComponent {
             return (
                 <div key={"c" + Math.floor(Math.random() * 10000000)} className="banner-container">
                     <h4 className="advertiser-name">{item.name}</h4>
-                    {itemArrayUrls}
-                </div>
+                    <div className="advertiser-banners-container">
+                        {itemArrayUrls}
+                    </div>
+                </div >
 
             )
         })

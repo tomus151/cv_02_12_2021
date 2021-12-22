@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
       <>
-        <img className="layer" src={background} alt="" />
+        {/* <img className="layer" src={background} alt="" /> */}
         <div className="app">
           <AdminInfo />
           <ContentList />

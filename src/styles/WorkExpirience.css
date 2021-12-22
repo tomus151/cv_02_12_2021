@@ -17,3 +17,10 @@
     color: #575757;
     margin-bottom: 10px;
 }
+
+.advertiser-banners-container {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
