@@ -3,6 +3,9 @@ import { default as data } from '../data/expirience.json';
 import '../styles/WorkExpirience.css';
 import IframeBanner from './IframeBanner';
 class WorkExpirience extends PureComponent {
+    handleClickcontainer = (e) => {
+        e.stopPropagation();
+    }
     render() {
         console.log(data)
         const bannersSpace = data.expirience.rtbhouse.banners.map((item, index) => {
@@ -22,17 +25,23 @@ class WorkExpirience extends PureComponent {
 
             )
         })
-        const pagesSpace = [];
+        // console.log(data)
+        const pagesTextSpace = data.expirience.redingo.commercianlProjectsArrayText.map((item, index) => (
+            <div key={"d" + Math.floor(Math.random() * 10000000)} className={`page-text-container page-text-container-${index}`}>
+                <a href={item.url} target="_blank" rel="noreferrer">{item.name}</a>
+            </div>
+        ));
+        const pagesToShowSpace = [];
+
         const works = () => {
             const worksArray = [];
             for (let item in data.expirience) {
-                console.log('item');
                 console.log(item)
                 const component = (
-                    <div className={`${item}-container`}>
+                    <div key={"e" + Math.floor(Math.random() * 10000000)} className={`${item}-container`} onClick={this.handleClickcontainer}>
                         <h2>{item.toUpperCase()}</h2>
                         <br />
-                        {bannersSpace}
+                        {item === "rtbhouse" ? bannersSpace : pagesTextSpace}
                     </div>
                 )
                 worksArray.push(component);
