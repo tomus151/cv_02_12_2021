@@ -1,10 +1,10 @@
 import React, { PureComponent } from 'react';
-
 import { default as data } from '../data/expirience.json';
 import '../styles/WorkExpirience.css';
 import IframeBanner from './IframeBanner';
 class WorkExpirience extends PureComponent {
     render() {
+        console.log(data)
         const bannersSpace = data.expirience.rtbhouse.banners.map((item, index) => {
             // if (index > 5) return null;
             const itemArrayUrls = item.url.map((url, index) => {
@@ -22,14 +22,34 @@ class WorkExpirience extends PureComponent {
 
             )
         })
+        const pagesSpace = [];
+        const works = () => {
+            const worksArray = [];
+            for (let item in data.expirience) {
+                console.log('item');
+                console.log(item)
+                const component = (
+                    <div className={`${item}-container`}>
+                        <h2>{item.toUpperCase()}</h2>
+                        <br />
+                        {bannersSpace}
+                    </div>
+                )
+                worksArray.push(component);
+            }
+            return worksArray
+        }
         return (
             <>
-                <div className="rtbhouse-container">
+                {works()}
+                {/* <div className="rtbhouse-container">
+                    <h2>aaa</h2>
+                    <br />
                     {bannersSpace}
                 </div>
                 <div className="redingo-container">
 
-                </div>
+                </div> */}
             </>
         );
     }
