@@ -1,0 +1,20 @@
+.loader-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    column-gap: 10px;
+}
+
+.load-circle {
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 50%;
+    transition: 0.3s linear
+}
+
+.load-circle.active {
+    transform: scale(1.4);
+}
