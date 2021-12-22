@@ -82,7 +82,27 @@
     background: #3a3c43;
 }
 
-.list-item section .circle img {
+.list-item-0 .circle svg {
+    color: #9da939;
+}
+
+.list-item-1 .circle svg {
+    color: #aec1bf;
+}
+
+.list-item-2 .circle svg {
+    color: #eebb3a;
+}
+
+.list-item-3 .circle svg {
+    color: #b83843;
+}
+
+.list-item-4 .circle svg {
+    color: #3a3c43;
+}
+
+.list-item section .circle svg {
     max-width: 70%;
     max-height: 64%;
 }

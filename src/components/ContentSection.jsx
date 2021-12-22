@@ -6,7 +6,7 @@ const ContentSection = ({ content, index, click }) => {
     const { id, info, title, active, image } = content;
     const isClassActive = active ? " active" : '';
     console.log(image)
-    const imageParse = parse(image)
+    const imageParsed = parse(image)
     return (
         <li
             className={"list-item list-item-" + index + isClassActive}
@@ -15,8 +15,7 @@ const ContentSection = ({ content, index, click }) => {
             <section>
                 <div className="section-title-container">
                     <div className="circle">
-                        {image ? <img src={`data:image/svg+xml;utf8,${image}`} alt="" /> : null}
-                        {imageParse}
+                        {image ? imageParsed : null}
                     </div>
                     <h2 className="section-title-text">{title}</h2>
                 </div>
