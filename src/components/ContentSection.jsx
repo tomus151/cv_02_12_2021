@@ -5,7 +5,6 @@ const ContentSection = ({ content, index, click }) => {
     // console.log(content)
     const { id, info, title, active, image } = content;
     const isClassActive = active ? " active" : '';
-    console.log(image)
     const imageParsed = parse(image)
     return (
         <li

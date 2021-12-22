@@ -2,7 +2,6 @@
     max-height: 0px;
     transition: .3s linear;
     overflow: hidden;
-    background: #ccc;
 }
 
 .list-item-content-container.active {
