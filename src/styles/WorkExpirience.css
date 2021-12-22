@@ -10,3 +10,10 @@
     gap: 40px;
     margin-top: 40px;
 }
+
+.advertiser-name {
+    font-size: 30px;
+    font-weight: 700;
+    color: #575757;
+    margin-bottom: 10px;
+}

@@ -6,8 +6,6 @@ const IframeBanner = ({ url }) => {
     const handleIframeIsLoaded = () => {
         setIsLoadedIframe(true)
     }
-
-
     return (
         <>
             <div className="iframe-container">

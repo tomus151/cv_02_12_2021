@@ -31,22 +31,24 @@ const IframeLoader = () => {
             },
         ]
     )
-    let timeout = null;
-    useEffect(() => {
+    let timeout;
+    function dotChageState() {
         timeout = setTimeout(() => {
             setCounter(prevValue => {
-                console.log(prevValue)
                 if (counter < loadedDots.length - 1) {
                     return prevValue + 1;
                 } else {
                     return 0;
                 }
             })
-            // console.log('aaa')
-        }, 300)
+        }, 300);
+    }
+    useEffect(() => {
+        dotChageState()
         return () => clearTimeout(timeout)
     }, [counter])
-    const allDots = loadedDots.map((dot, index) => <div key={`aa${index}`} class={`load-circle load-circle-${dot.nr} ${counter === Number(dot.nr) ? "active" : ''}`} data-id={`${dot.nr}`}></div>)
+    const allDots = loadedDots.map((dot, index) => <div key={`aa${index}`} className={`load-circle load-circle-${dot.nr} ${counter === Number(dot.nr) ? "active" : ''}`} data-id={`${dot.nr}`}></div>)
+    // const allDots = loadedDots.map((dot, index) => <div key={`aa${index}`} className={`load-circle load-circle-${dot.nr}`} data-id={`${dot.nr}`}></div>)
     return (
         <div className="loader-container">
             {allDots}
