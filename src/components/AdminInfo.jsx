@@ -5,7 +5,7 @@ import AdminPersonalInfo from './AdminPersonalInfo'
 const AdminInfo = () => {
     return (
         <header className="admin-info-container">
-            <img className="admin-info-img-item" src={adminImage} alt="" />
+            <img className="admin-info-img-item" src={adminImage} alt="" width={300} height={300} />
             <AdminPersonalInfo />
         </header>
     )
