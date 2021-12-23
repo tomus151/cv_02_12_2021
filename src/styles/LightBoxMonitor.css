@@ -9,6 +9,7 @@
 
 .lightbox-monitor-image {
     width: 100%;
+    user-select: none;
 }
 
 .lightbox-monitor-images-container {
