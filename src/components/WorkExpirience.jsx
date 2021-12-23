@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react';
 import { default as data } from '../data/expirience.json';
 import '../styles/WorkExpirience.css';
 import RtbWork from './RtbWork';
-// import IframeBanner from './IframeBanner';
+import Redingo from './Redingo';
 class WorkExpirience extends PureComponent {
     handleClickcontainer = (e) => {
         e.stopPropagation();
@@ -51,6 +51,7 @@ class WorkExpirience extends PureComponent {
         return (
             <>
                 <RtbWork data={data.expirience.rtbhouse} />
+                <Redingo data={data.expirience.redingo} />
                 {/* {works()} */}
             </>
         );

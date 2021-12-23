@@ -168,7 +168,7 @@
         "redingo": {
             "date": "2017-2018",
             "position": "Junior Front-end Developer",
-            "commercianlProjectsArrayText": [{
+            "commercialProjectsArrayText": [{
                     "name": "SWD",
                     "url": "https://shop.swdgym.com/"
                 },
@@ -201,9 +201,9 @@
                     "url": "https://swiatrowerow.com.pl/"
                 }
             ],
-            "commercianlProjectsArrayToShow": [{
+            "commercialProjectsArrayToShow": [{
                     "name": "SWD",
-                    "imagesHomeMini": "biomed-pharma.mini.home.png"
+                    "imagesHomeMini": "swd.mini.home.png"
                 },
                 {
                     "name": "EURO-KLIMA",
@@ -215,7 +215,7 @@
                 },
                 {
                     "name": "BIOMED-PHARMA",
-                    "imagesHomeMini": "swd.mini.home.png"
+                    "imagesHomeMini": "biomed-pharma.mini.home.png"
                 }
             ]
         }

@@ -21,6 +21,7 @@ const RtbWork = ({ data }) => {
     return (<div>
         <h2 className="experience-work-title">{`${date} - RTBHOUSE`}</h2>
         <h3 className="experience-position-title">{position}</h3>
+        <span className="expirience-additional-text">Examples of banners in my every day work</span>
         <div className="experience-banners-container">
             {bannersSpace}
         </div>
