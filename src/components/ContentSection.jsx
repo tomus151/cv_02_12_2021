@@ -3,7 +3,8 @@ import '../styles/ContentSection.css';
 import ContentContent from './ContentContent'
 const ContentSection = ({ content, index, click }) => {
     // console.log(content)
-    const { id, info, title, active, image } = content;
+    // const { id, info, title, active, image } = content;
+    const { id, title, active, image } = content;
     const isClassActive = active ? " active" : '';
     const imageParsed = parse(image)
     return (

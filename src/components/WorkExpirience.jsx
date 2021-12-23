@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react';
 import { default as data } from '../data/expirience.json';
 import '../styles/WorkExpirience.css';
 import RtbWork from './RtbWork';
-import IframeBanner from './IframeBanner';
+// import IframeBanner from './IframeBanner';
 class WorkExpirience extends PureComponent {
     handleClickcontainer = (e) => {
         e.stopPropagation();
@@ -25,28 +25,28 @@ class WorkExpirience extends PureComponent {
 
         //     )
         // })
-        const pagesTextSpace = data.expirience.redingo.commercianlProjectsArrayText.map((item, index) => (
-            <div key={"d" + Math.floor(Math.random() * 10000000)} className={`page-text-container page-text-container-${index}`}>
-                <a href={item.url} target="_blank" rel="noreferrer">{item.name}</a>
-            </div>
-        ));
-        const pagesToShowSpace = [];
+        // const pagesTextSpace = data.expirience.redingo.commercianlProjectsArrayText.map((item, index) => (
+        //     <div key={"d" + Math.floor(Math.random() * 10000000)} className={`page-text-container page-text-container-${index}`}>
+        //         <a href={item.url} target="_blank" rel="noreferrer">{item.name}</a>
+        //     </div>
+        // ));
+        // const pagesToShowSpace = [];
 
-        const works = () => {
-            const worksArray = [];
-            for (let item in data.expirience) {
-                console.log(item)
-                const component = (
-                    <div key={"e" + Math.floor(Math.random() * 10000000)} className={`${item}-container`} onClick={this.handleClickcontainer}>
-                        <h2>{item.toUpperCase()}</h2>
-                        <br />
-                        {/* {item === "rtbhouse" ? bannersSpace : pagesTextSpace} */}
-                    </div>
-                )
-                worksArray.push(component);
-            }
-            return worksArray
-        }
+        // const works = () => {
+        //     const worksArray = [];
+        //     for (let item in data.expirience) {
+        //         console.log(item)
+        //         const component = (
+        //             <div key={"e" + Math.floor(Math.random() * 10000000)} className={`${item}-container`} onClick={this.handleClickcontainer}>
+        //                 <h2>{item.toUpperCase()}</h2>
+        //                 <br />
+        //                 {/* {item === "rtbhouse" ? bannersSpace : pagesTextSpace} */}
+        //             </div>
+        //         )
+        //         worksArray.push(component);
+        //     }
+        //     return worksArray
+        // }
         // console.log(data)
         return (
             <>
