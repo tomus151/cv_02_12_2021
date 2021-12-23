@@ -1,0 +1,21 @@
+.lightbox-monitor-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: auto;
+}
+
+.lightbox-monitor-image {
+    width: 100%;
+}
+
+.lightbox-monitor-images-container {
+    position: absolute;
+    top: 4.8%;
+    left: 4.3%;
+    height: 72.6%;
+    width: 91.9%;
+    background: red;
+}

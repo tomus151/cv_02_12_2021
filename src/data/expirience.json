@@ -207,7 +207,7 @@
                 },
                 {
                     "name": "EURO-KLIMA",
-                    "imagesHomeMini": "euro-klima.mini.home.png"
+                    "imagesHomeMini": "euroklima.mini.home.png"
                 },
                 {
                     "name": "KITLE.PL",
@@ -215,7 +215,7 @@
                 },
                 {
                     "name": "BIOMED-PHARMA",
-                    "imagesHomeMini": "biomed-pharma.mini.home.png"
+                    "imagesHomeMini": "biomedpharma.mini.home.png"
                 }
             ]
         }
