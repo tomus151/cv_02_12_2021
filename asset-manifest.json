@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/cv_02_12_2021/static/css/main.3d4f3cc2.chunk.css",
-    "main.js": "/cv_02_12_2021/static/js/main.e104ae79.chunk.js",
-    "main.js.map": "/cv_02_12_2021/static/js/main.e104ae79.chunk.js.map",
+    "main.css": "/cv_02_12_2021/static/css/main.e093fe4f.chunk.css",
+    "main.js": "/cv_02_12_2021/static/js/main.380540e9.chunk.js",
+    "main.js.map": "/cv_02_12_2021/static/js/main.380540e9.chunk.js.map",
     "runtime-main.js": "/cv_02_12_2021/static/js/runtime-main.af84588c.js",
     "runtime-main.js.map": "/cv_02_12_2021/static/js/runtime-main.af84588c.js.map",
     "static/js/2.d559e0bb.chunk.js": "/cv_02_12_2021/static/js/2.d559e0bb.chunk.js",
     "static/js/2.d559e0bb.chunk.js.map": "/cv_02_12_2021/static/js/2.d559e0bb.chunk.js.map",
     "index.html": "/cv_02_12_2021/index.html",
-    "static/css/main.3d4f3cc2.chunk.css.map": "/cv_02_12_2021/static/css/main.3d4f3cc2.chunk.css.map",
+    "static/css/main.e093fe4f.chunk.css.map": "/cv_02_12_2021/static/css/main.e093fe4f.chunk.css.map",
     "static/js/2.d559e0bb.chunk.js.LICENSE.txt": "/cv_02_12_2021/static/js/2.d559e0bb.chunk.js.LICENSE.txt",
     "static/media/admin.b3ebf9cc.jpg": "/cv_02_12_2021/static/media/admin.b3ebf9cc.jpg",
     "static/media/biomedpharma.mini.home.30272653.png": "/cv_02_12_2021/static/media/biomedpharma.mini.home.30272653.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.af84588c.js",
     "static/js/2.d559e0bb.chunk.js",
-    "static/css/main.3d4f3cc2.chunk.css",
-    "static/js/main.e104ae79.chunk.js"
+    "static/css/main.e093fe4f.chunk.css",
+    "static/js/main.380540e9.chunk.js"
   ]
 }
