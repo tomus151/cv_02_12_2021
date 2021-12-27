@@ -7,6 +7,12 @@
     padding-left: 150px;
 }
 
+@media all and (max-width: 610px) {
+    .education-element-container {
+        padding-left: 20px;
+    }
+}
+
 .education-title {
     display: inline-block;
     font-size: 20px;
@@ -19,6 +25,10 @@
     margin-left: 50px;
     margin-bottom: 20px;
     color: #fff;
+}
+
+.education-container {
+    padding-right: 30px;
 }
 
 .education-container li:nth-last-child(1) {

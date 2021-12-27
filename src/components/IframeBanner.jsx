@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, memo } from 'react';
 import IframeLoader from './IframeLoader';
 import '../styles/IframeBanner.css';
 const IframeBanner = ({ url }) => {
@@ -12,10 +12,9 @@ const IframeBanner = ({ url }) => {
                 {!isLoadedIframe ? <IframeLoader /> : null}
                 <iframe src={url} loading="lazy" onLoad={handleIframeIsLoaded} title="banner"></iframe>
             </div>
-            {/* {!isLoadedIframe ? <div className="loader-iframe">wczytywanie</div> : iframeBannerItem} */}
 
         </>
     );
 }
 
-export default IframeBanner;
+export default memo(IframeBanner);

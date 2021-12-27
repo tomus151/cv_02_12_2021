@@ -4,6 +4,13 @@
     overflow: hidden;
 }
 
+@media all and (max-width: 320px) {
+    .list-item-content-container {
+        width: 320px;
+        margin-left: -20px;
+    }
+}
+
 .list-item-content-container.active {
     max-height: 100000px;
 }

@@ -15,6 +15,14 @@
     color: #fff;
 }
 
+@media all and (max-width: 610px) {
+    .admin-info-container {
+
+        flex-direction: column;
+        height: 525px;
+    }
+}
+
 .admin-info-container:before {
     content: "";
     border: 23px solid transparent;

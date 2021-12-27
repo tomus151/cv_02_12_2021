@@ -20,7 +20,7 @@ const LightBoxMonitor = ({ name, click }) => {
     }
     const imagesGenerator = imagesArray.map((imageUrl, index) => (
         <img
-            key={"lightboxmonitor" + Math.floor(Math.random() * 10000000)}
+            key={"lightboxmonitor" + index}
             className={"lightbox-monitor-image-item lightbox-monitor-image-item-" + index + (index === activeImage ? " active" : "")}
             src={imageUrl}
             alt={`${name}-page`}

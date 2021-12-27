@@ -5,6 +5,24 @@
     cursor: pointer;
 }
 
+@media all and (max-width: 1024px) {
+    .list-item {
+        padding-left: 40px;
+    }
+}
+
+@media all and (max-width: 610px) {
+    .list-item {
+        padding-left: 20px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .list-item {
+        left: 0px;
+    }
+}
+
 .list-item:after {
     display: none;
     content: "";
@@ -25,6 +43,13 @@
     left: 120px;
 
 }
+
+@media all and (max-width: 610px) {
+    .list-item:before {
+        left: 20px;
+    }
+}
+
 
 .list-item-0:before {
     border-top-color: #3a3c43;
