@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/cv_02_12_2021/static/css/main.3a86c49c.chunk.css",
-    "main.js": "/cv_02_12_2021/static/js/main.ca0fe2a1.chunk.js",
-    "main.js.map": "/cv_02_12_2021/static/js/main.ca0fe2a1.chunk.js.map",
+    "main.css": "/cv_02_12_2021/static/css/main.ac622e12.chunk.css",
+    "main.js": "/cv_02_12_2021/static/js/main.c10f5af9.chunk.js",
+    "main.js.map": "/cv_02_12_2021/static/js/main.c10f5af9.chunk.js.map",
     "runtime-main.js": "/cv_02_12_2021/static/js/runtime-main.af84588c.js",
     "runtime-main.js.map": "/cv_02_12_2021/static/js/runtime-main.af84588c.js.map",
     "static/js/2.5b6f64ca.chunk.js": "/cv_02_12_2021/static/js/2.5b6f64ca.chunk.js",
     "static/js/2.5b6f64ca.chunk.js.map": "/cv_02_12_2021/static/js/2.5b6f64ca.chunk.js.map",
     "index.html": "/cv_02_12_2021/index.html",
-    "static/css/main.3a86c49c.chunk.css.map": "/cv_02_12_2021/static/css/main.3a86c49c.chunk.css.map",
+    "static/css/main.ac622e12.chunk.css.map": "/cv_02_12_2021/static/css/main.ac622e12.chunk.css.map",
     "static/js/2.5b6f64ca.chunk.js.LICENSE.txt": "/cv_02_12_2021/static/js/2.5b6f64ca.chunk.js.LICENSE.txt",
     "static/media/1.1ad34208.png": "/cv_02_12_2021/static/media/1.1ad34208.png",
     "static/media/1.30272653.png": "/cv_02_12_2021/static/media/1.30272653.png",
@@ -26,7 +26,6 @@
     "static/media/biomedpharma.mini.home.30272653.png": "/cv_02_12_2021/static/media/biomedpharma.mini.home.30272653.png",
     "static/media/clickHandImage.900fec83.png": "/cv_02_12_2021/static/media/clickHandImage.900fec83.png",
     "static/media/css3.png": "/cv_02_12_2021/static/media/css3.e0772146.png",
-    "static/media/cv_full_view.82b45906.png": "/cv_02_12_2021/static/media/cv_full_view.82b45906.png",
     "static/media/euroklima.mini.home.cefd80f5.png": "/cv_02_12_2021/static/media/euroklima.mini.home.cefd80f5.png",
     "static/media/git.png": "/cv_02_12_2021/static/media/git.9b309f87.png",
     "static/media/grunt.png": "/cv_02_12_2021/static/media/grunt.d3ef341a.png",
@@ -52,7 +51,7 @@
   "entrypoints": [
     "static/js/runtime-main.af84588c.js",
     "static/js/2.5b6f64ca.chunk.js",
-    "static/css/main.3a86c49c.chunk.css",
-    "static/js/main.ca0fe2a1.chunk.js"
+    "static/css/main.ac622e12.chunk.css",
+    "static/js/main.c10f5af9.chunk.js"
   ]
 }
