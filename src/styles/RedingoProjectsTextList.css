@@ -1,0 +1,12 @@
+.expirience-text-project-container-list-item {
+    padding: 5px 0px;
+}
+
+.expirience-text-project-container-list-item:nth-last-child(1) {
+    margin-bottom: 50px;
+}
+
+.expirience-text-project-container-list-item a {
+    text-decoration: none;
+    color: #fff;
+}

@@ -11,13 +11,13 @@
     color: #fff;
     font-size: 24px;
     font-weight: 400;
+
 }
 
 .experience-banners-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    ;
     gap: 40px;
     padding: 40px 0px;
 }
@@ -25,5 +25,6 @@
 .expirience-additional-text {
     display: inline-block;
     margin-top: 100px;
+    margin-bottom: 100px;
     color: #fff;
 }
