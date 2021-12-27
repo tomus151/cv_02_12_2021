@@ -23,6 +23,7 @@
         "rwd",
         "sass",
         "typescript",
-        "webpack"
+        "webpack",
+        "apachevelocity"
     ]
 }

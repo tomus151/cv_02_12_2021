@@ -1,7 +1,7 @@
 import educationData from '../data/educationData.json'
 import EducationElement from './EducationElement'
 const EducationList = () => {
-    const educationList = educationData.map((item, index) => <EducationElement key={`education-${index}`} name={item.name} description={item.description} />)
+    const educationList = educationData.map((item, index) => <EducationElement key={`education-${index}`} name={item.name} description={item.description} title={item.title} />)
     return (
         <ul className="education-container">
             {educationList}

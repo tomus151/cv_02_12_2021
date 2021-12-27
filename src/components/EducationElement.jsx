@@ -5,9 +5,12 @@ const EducationElement = ({ name, title, description }) => {
         <li>
             <div className="education-element-container">
                 <span className="education-title">
-                    {[title, name]}
+                    {name}
                 </span>
                 <p className="education-description-container">
+                    {title}
+                    <br />
+                    <br />
                     {description}
                 </p>
             </div>
