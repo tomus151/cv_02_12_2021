@@ -1,17 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import LightBox from './LightBox';
+import MonitorOverlay from './MonitorOverlay';
 import '../styles/LightBoxMonitor.css';
 import monitoImage from '../images/screen.svg';
 import imagesLibrary from './imagesLibrary';
 const LightBoxMonitor = ({ name, click }) => {
     const [imagesArray, setImagesArray] = useState([])
     const [activeImage, setActiveImage] = useState(0)
+    const [isOverlayActive, setIsOverlayActive] = useState(true)
     useEffect(() => {
         const changedName = name.toLowerCase().replace(/[-.]/g, '')
-        console.log(changedName)
-        debugger;
         setImagesArray(imagesLibrary[changedName])
     }, [name])
+    const handleRemoveOverlay = () => isOverlayActive ? setIsOverlayActive(false) : null;
     const handleChangeLightBoxImage = (e) => {
         e.stopPropagation()
         if (activeImage < imagesArray.length - 1) setActiveImage(prevValue => prevValue + 1)
@@ -29,9 +30,11 @@ const LightBoxMonitor = ({ name, click }) => {
         <LightBox click={click}>
             <div className="lightbox-monitor-container">
                 <img className="lightbox-monitor-image" src={monitoImage} alt="monitor" />
-                <div className="lightbox-monitor-images-container" onClick={handleChangeLightBoxImage}>
+                <div className={"lightbox-monitor-images-container" + (isOverlayActive ? '' : ' active')} onClick={handleChangeLightBoxImage}>
+                    {isOverlayActive ? <MonitorOverlay mouseenter={handleRemoveOverlay} /> : null}
                     {imagesGenerator}
                 </div>
+
             </div>
         </LightBox>
     );

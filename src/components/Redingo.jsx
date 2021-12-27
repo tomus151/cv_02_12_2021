@@ -4,7 +4,7 @@ const Redingo = ({ data }) => {
     const stopPropagationFunction = (e) => {
         e.stopPropagation()
     }
-    const projectsSpaces = commercialProjectsArrayToShow.map(item => <Monitor key={"monitor" + Math.floor(Math.random() * 10000000)} {...item} />)
+    const projectsSpaces = commercialProjectsArrayToShow.map((item, index) => <Monitor key={"monitor" + Math.floor(Math.random() * 10000000)} {...item} index={index} />)
     return (
         <div>
             <h2 className="experience-work-title">{`${date} - REDINGO`}</h2>

@@ -24,9 +24,13 @@
     top: 16px;
     left: 17px;
     width: 368px;
-    height: 241px;
+    height: 242px;
     overflow-x: hidden;
-    background: red;
+    background: #fff;
+}
+
+.monitor-content-container-1 {
+    background: #3f3f3f;
 }
 
 .monitor-content-container::-webkit-scrollbar-track {
@@ -50,31 +54,6 @@
     width: 100%;
 }
 
-.monitor-overlay-container {
-    position: absolute;
-    top: 16px;
-    left: 17px;
-    width: 368px;
-    height: 241px;
-    background: rgba(255, 255, 255, 0.6)
-}
 
-.monitor-overlay-circle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 50px;
-    height: 50px;
-    background: #fff;
-    border: 1px solid #ccc;
-    border-radius: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.monitor-overlay-circle img {
-    margin-top: 15%;
-    width: 70%;
-    height: 70%;
-}
 
 /* .monitor-overlay-container */

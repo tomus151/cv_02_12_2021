@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import IframeLoader from './IframeLoader';
 import LightBoxMonitor from './LightBoxMonitor';
+import MonitorOverlay from './MonitorOverlay';
 import monitorImage from '../images/screen.svg';
 import swdHpMini from '../images/pages/mini_homepage/swd.mini.home.png';
 import euroklimaHpMini from '../images/pages/mini_homepage/euroklima.mini.home.png';
 import kitleHpMini from '../images/pages/mini_homepage/kitle.pl.mini.home.png';
 import biomedpharmaHpMini from '../images/pages/mini_homepage/biomedpharma.mini.home.png';
-import overlayImage from '../images/clickHandImage.png'
 import '../styles/Monitor.css';
-const Monitor = ({ name, imagesHomeMini }) => {
+const Monitor = ({ name, imagesHomeMini, index }) => {
     const [image, setImage] = useState('');
     const [isOverlayActive, setIsOverlayActive] = useState(true)
     const [isImageLoaded, setIsImageLoaded] = useState(true)
@@ -19,7 +19,7 @@ const Monitor = ({ name, imagesHomeMini }) => {
         else if (imagesHomeMini === 'kitle.pl.mini.home.png') setImage(kitleHpMini);
         else if (imagesHomeMini === 'biomedpharma.mini.home.png') setImage(biomedpharmaHpMini);
     }, [imagesHomeMini])
-    const handleRemoveOverlay = () => setIsOverlayActive(false);
+    const handleRemoveOverlay = () => isOverlayActive ? setIsOverlayActive(false) : null;
     const handleImageLoaded = () => setIsImageLoaded(false);
     const handleShowLightBox = () => {
         document.body.style.overflow = 'hidden';
@@ -33,7 +33,7 @@ const Monitor = ({ name, imagesHomeMini }) => {
         <div className="expirience-monitor-container">
             {isLightBoxOpen ? <LightBoxMonitor name={name} click={handleHideLightBox} /> : null}
             <img className="expirience-monitor-image" src={monitorImage} alt="monitor" />
-            <div className="monitor-content-container">
+            <div className={"monitor-content-container monitor-content-container-" + index}>
                 {
                     isImageLoaded ?
                         <IframeLoader />
@@ -44,11 +44,7 @@ const Monitor = ({ name, imagesHomeMini }) => {
             </div>
             {
                 isOverlayActive ?
-                    <div className="monitor-overlay-container" onMouseEnter={handleRemoveOverlay}>
-                        <div className="monitor-overlay-circle">
-                            <img src={overlayImage} alt="hand" />
-                        </div>
-                    </div>
+                    <MonitorOverlay mouseenter={handleRemoveOverlay} />
                     :
                     null
             }
