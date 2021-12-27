@@ -19,7 +19,6 @@ class ContentList extends PureComponent {
     handleSectionClick = (id) => {
         const sectionsData = this.state.sectionsData.map(item => {
             if (item.id === id) item.active = !item.active
-            else item.active = false;
             return item
         })
         this.setState({

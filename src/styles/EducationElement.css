@@ -1,0 +1,26 @@
+.education-container li {
+    text-align: left;
+    /* padding-left: 120px; */
+}
+
+.education-element-container {
+    padding-left: 150px;
+}
+
+.education-title {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.education-description-container {
+    margin-left: 50px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.education-container li:nth-last-child(1) {
+    margin-bottom: 50px;
+}

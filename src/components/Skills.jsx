@@ -21,31 +21,6 @@ const Skills = () => {
         changeActiveTechnology()
         return () => clearTimeout(timeout)
     })
-    // let timeout;
-    // function intervalFc() {
-    //     console.log('start timeout')
-    //     timeout = setTimeout(() => {
-    //         console.log('timeout working')
-    //         console.log(technologies)
-    //         console.log(technologies.technologies);
-    //         setElementWithClassActive(prevValue => {
-    //             if (elementWithClassActive < technologies.technologies.length - 1) {
-    //                 return prevValue + 1;
-    //             } else {
-    //                 return 0;
-    //             }
-    //         })
-    //     }, 300);
-    // }
-    // useEffect(() => {
-    //     console.log('effect')
-    //     intervalFc()
-    //     return clearTimeout(timeout)
-    // })
-
-
-
-
     return (
         <div className="skills-slider-wrapper">
             <span className="skills-title">Technologies:</span>

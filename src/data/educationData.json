@@ -1,61 +1,43 @@
 [{
         "id": "b0",
         "name": "Kurs JavaScript - zaawansowany strefakursów.pl",
-        "description": [
-            "Course JavaScript - zaawansowany",
-            "Description:",
-            ""
-        ]
+        "title": "Course JavaScript - zaawansowany",
+        "description": ""
 
     },
     {
         "id": "b1",
         "name": "Kurs Javascript dla superbohaterów kursjs.pl",
-        "description": [
-            "Course Javascript dla superbohaterów",
-            "Description:",
-            ""
-        ]
+        "title": "Course Javascript dla superbohaterów",
+        "description": ""
 
     },
     {
         "id": "b2",
         "name": "Samuraj programowania React od podstaw udemy.com",
-        "description": [
-            "Course React od podstaw",
-            "Description:",
-            ""
-        ]
+        "title": "Course React od podstaw",
+        "description": ""
 
     },
     {
         "id": "b3",
         "name": "CodersLab Kurs JavaScript Developer: React 240h",
-        "description": [
-            "Course Front-end developer React",
-            "Description:",
-            "240 hours course on which I gained skills to work as a Frontened Developer"
-        ]
+        "title": "Course Front-end developer React",
+        "description": "240 hours course on which I gained skills to work as a Frontened Developer"
 
     },
     {
         "id": "b4",
         "name": "Polsko Japońska Wyższa Szkoła Technik Komputerowych",
-        "description": [
-            "Postgraduate studies in the direction of Databases and their applications",
-            "Description:",
-            "Communication with the database. Administration of relational data bases."
-        ]
+        "title": "Postgraduate studies in the direction of Databases and their applications",
+        "description": "Communication with the database. Administration of relational data bases."
 
     },
     {
         "id": "b5",
         "name": "Uczelnia Warszawska im. Marii Curie-Skłodowskiej",
-        "description": [
-            "Engineering studies in the direction of Geodesy and Cartography",
-            "Description:",
-            "Tacheometer, leveling, civil law, construction projects"
-        ]
+        "title": "Engineering studies in the direction of Geodesy and Cartography",
+        "description": "Tacheometer, leveling, civil law, construction projects"
 
     }
 ]

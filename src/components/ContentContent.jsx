@@ -1,16 +1,17 @@
 import React from 'react';
-import Skills from './Skills'
+import Skills from './Skills';
+import EducationList from './EducationList';
+import WorkExpirience from './WorkExpirience';
 import '../styles/ContentContent.css';
-import WorkExpirience from './WorkExpirience'
 const ContentContent = (props) => {
     const { isActive, title } = props
-    console.log(title)
     let classNames = isActive ? ' active' : '';
-
+    console.log('a')
     return (
         <div className={`list-item-content-container${classNames}`}>
             {title === "Work Experience" && <WorkExpirience />}
             {title === "Skills" && <Skills />}
+            {title === "Education" && <EducationList />}
         </div>
     );
 }
