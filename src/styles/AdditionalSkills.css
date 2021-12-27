@@ -1,0 +1,8 @@
+.additionalskills-text {
+    color: #fff;
+}
+
+.additionalskills-text:nth-last-child(1) {
+    margin-bottom: 50px;
+    display: inline-block;
+}
