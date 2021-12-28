@@ -13,13 +13,12 @@ const ContentList = () => {
         setState(copyData)
     }, [])
     const handleSectionClick = (id) => {
+        console.log('a')
         const sectionsData = state.map(item => {
             if (item.id === id) item.active = !item.active
             return item
         })
-        setState(
-            sectionsData
-        )
+        setState(sectionsData)
     }
     const sections = state.map((section, index) => <ContentSection key={section.id} content={section} index={index} click={handleSectionClick} />)
     return (

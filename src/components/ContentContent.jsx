@@ -8,6 +8,8 @@ import '../styles/ContentContent.css';
 const ContentContent = (props) => {
     const { isActive, title } = props
     let classNames = isActive ? ' active' : '';
+    console.log(isActive)
+    console.log(classNames)
     return (
         <div className={`list-item-content-container${classNames}`}>
             {title === "Work Experience" && <WorkExpirience />}
