@@ -4,12 +4,13 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    /* gap: 40px; */
 }
 
 .expirience-monitor-container {
     width: 400px;
     position: relative;
+    margin: 20px;
 }
 
 .expirience-monitor-image {
