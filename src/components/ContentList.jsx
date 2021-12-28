@@ -13,7 +13,6 @@ const ContentList = () => {
         setState(copyData)
     }, [])
     const handleSectionClick = (id) => {
-        console.log('a')
         const sectionsData = state.map(item => {
             if (item.id === id) item.active = !item.active
             return item
