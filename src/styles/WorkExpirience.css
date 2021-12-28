@@ -16,6 +16,8 @@
     font-weight: 400;
     color: #fff;
     margin-bottom: 10px;
+    border-bottom: 3px solid #fff;
+    padding-bottom: 5px;
 }
 
 .advertiser-banners-container {
@@ -23,4 +25,5 @@
     gap: 40px;
     flex-wrap: wrap;
     justify-content: center;
+    max-width: 980px;
 }
