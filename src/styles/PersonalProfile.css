@@ -7,3 +7,10 @@
 .personalprofile-container {
     padding-right: 20px;
 }
+
+@media all and (max-width: 480px) {
+    .personalprofile-container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}

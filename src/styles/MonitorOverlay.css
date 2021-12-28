@@ -8,6 +8,13 @@
     z-index: 1;
 }
 
+@media all and (max-width: 480px) {
+    .monitor-overlay-container {
+        width: 92%;
+        height: 72%;
+    }
+}
+
 .monitor-overlay-circle {
     position: absolute;
     top: 50%;

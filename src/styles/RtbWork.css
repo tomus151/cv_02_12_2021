@@ -5,6 +5,15 @@
     font-weight: 900;
 }
 
+@media all and (max-width: 425px) {
+
+    .experience-position-title,
+    .experience-work-title {
+        padding-left: 20px;
+    }
+
+}
+
 .experience-position-title {
     margin-top: 30px;
     text-align: left;
