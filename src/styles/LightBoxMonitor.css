@@ -8,6 +8,12 @@
     z-index: 2;
 }
 
+@media all and (max-width: 1024px) {
+    .lightbox-monitor-container {
+        width: calc(100% - 20px);
+    }
+}
+
 .lightbox-monitor-image {
     width: 100%;
     user-select: none;
